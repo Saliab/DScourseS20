@@ -1,0 +1,54 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Data Science PS6}
+\author{salimeh Birang }
+\date{March 2020}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+
+\maketitle
+
+\section*{}
+\noindent
+\textbf{Question 3}\\
+In order to clean data, I add exchange rate data set for Turkey, and then I merged it with country code that I scraped for the last problem set, so that I can merge my exchange rate data with other data sets. That is important for my research to have country code merged since different data sources sometimes have different country names which makes it difficult to merge. Here in this question for simplicity I just have data for Turkey and I calculate real exchange rate and I want to merge it with real exchange rate calculated by my advisor for his own research to see if I have made a mistake or not.\\
+In order to merge my data set with data set downloaded from my advisor's web page, I needed to separate my Date which was year and month combined, into two different columns to match the data set. I couldn't merge them totally here, I guess because month in one of them was $(1,2,3,4,5,6,7,8,9,10,11,12)$ and in the other data set it was $(01,02,03,04,05,06,07,08,09,10,11,12)$ because after merging I ended up with only month $10,11,12$. I tried to change the one digit part to two digit I could not find the code to do it. \\
+I take the log of my real exchange rate variable I don't know if it was appropriate or common way to do it in R, I did the way I would do it in matlab and it worked.\\
+I tried to calculate growth rate of real exchange rate in R, after spending a few hours, however, I couldn't figure out what I was doing wrong I had the growth rate calculated in Stata I used that to plot.
+
+
+
+\\
+
+\noindent
+\textbf{Question 5}\\
+In figure one I plotted Turkey's real exchange rate between 1950-2019 that shows the trend of real exchange rate for Turkey. In figure two, I plotted real exchange rate calculated by myself between 1950-2019 and real exchange rate calculated by my advisor which was between 1960-2013, by looking at the graph we can see that both RER have similar trend. In figure three, I plotted the growth rate of the real exchange rate calculated by me and my advisor, the figure shows that it matches perfectly so I can be confident about my RER variable and I can go forward and calculate exchange rate misalignment.\\ 
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.8]{Rplot.png}
+\caption{Monthly Real exchange rate Turkey}
+\label{figure one}
+\end{figure}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{Rplot03.png}
+\caption{Monthly Real exchange rate Turkey Calculated by me and my advisor}
+\label{figure one}
+\end{figure}
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{Rplot04.png}
+\caption{Growth Rate of Real exchange Rate Turkey Calculated by me and my advisor}
+\label{figure one}
+\end{figure}
+
+
+\bibliographystyle{plain}
+
+\end{document}
