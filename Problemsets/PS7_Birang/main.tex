@@ -1,0 +1,109 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{ProblemSet 7}
+\author{salimeh Birang }
+\date{March 2020}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+
+\maketitle
+
+\noindent
+\textbf{Question 6:}\\
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Tue, Mar 10, 2020 - 16:37:32
+\begin{table}[!htbp] \centering 
+  \caption{Summary Statistics} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+Statistic & \multicolumn{1}{c}{N} & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{St. Dev.} & \multicolumn{1}{c}{Min} & \multicolumn{1}{c}{Pctl(25)} & \multicolumn{1}{c}{Pctl(75)} & \multicolumn{1}{c}{Max} \\ 
+\hline \\[-1.8ex] 
+logwage & 1,669 & 1.625 & 0.386 & 0.005 & 1.362 & 1.936 & 2.261 \\ 
+hgc & 2,229 & 13.101 & 2.524 & 0 & 12 & 15 & 18 \\ 
+tenure & 2,229 & 5.971 & 5.507 & 0.000 & 1.583 & 9.333 & 25.917 \\ 
+age & 2,229 & 39.152 & 3.062 & 34 & 36 & 42 & 46 \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+The number of missing values in logwage is $560$, at almost $\%33$ is missing, I think this variable is MNAR. 
+\\
+
+\\
+\noindent
+\textbf{Question 7:}\\
+
+
+The estimated coefficients are lower than the true value, Column 2 represents the results when missing values are replaced with mean and we get lower coefficients in column three and column one I get the same coefficients. since missing values are not random, employment is not randomly assigned and we can just observe the wages of those who are employed in labor force, The last two method assumes missing at random in which we can drop the entire offending row and our final result won't be biased.\\
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Tue, Mar 10, 2020 - 17:58:20
+% Requires LaTeX packages: dcolumn 
+\begin{table}[!htbp] \centering 
+  \caption{Results} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lD{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-4} 
+\\[-1.8ex] & \multicolumn{3}{c}{logwage} \\ 
+\\[-1.8ex] & \multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)}\\ 
+\hline \\[-1.8ex] 
+ hgc & 0.062^{***} & 0.050^{***} & 0.062^{***} \\ 
+  & (0.005) & (0.004) & (0.004) \\ 
+  & & & \\ 
+ collegenot college grad & 0.145^{***} & 0.168^{***} & 0.145^{***} \\ 
+  & (0.034) & (0.026) & (0.025) \\ 
+  & & & \\ 
+ poly(tenure, 2)1 & 4.855^{***} &  &  \\ 
+  & (0.346) &  &  \\ 
+  & & & \\ 
+ poly(tenure, 2)2 & -1.836^{***} &  &  \\ 
+  & (0.345) &  &  \\ 
+  & & & \\ 
+ tenure &  & 0.038^{***} & 0.050^{***} \\ 
+  &  & (0.004) & (0.004) \\ 
+  & & & \\ 
+ tenure2 &  & -0.001^{***} & -0.002^{***} \\ 
+  &  & (0.0002) & (0.0002) \\ 
+  & & & \\ 
+ age & 0.0004 & 0.0002 & 0.0004 \\ 
+  & (0.003) & (0.002) & (0.002) \\ 
+  & & & \\ 
+ marriedsingle & -0.022 & -0.027^{**} & -0.022^{*} \\ 
+  & (0.018) & (0.014) & (0.013) \\ 
+  & & & \\ 
+ Constant & 0.709^{***} & 0.708^{***} & 0.534^{***} \\ 
+  & (0.145) & (0.116) & (0.112) \\ 
+  & & & \\ 
+\hline \\[-1.8ex] 
+Observations & \multicolumn{1}{c}{1,669} & \multicolumn{1}{c}{2,229} & \multicolumn{1}{c}{2,229} \\ 
+R$^{2}$ & \multicolumn{1}{c}{0.208} & \multicolumn{1}{c}{0.147} & \multicolumn{1}{c}{0.277} \\ 
+Adjusted R$^{2}$ & \multicolumn{1}{c}{0.206} & \multicolumn{1}{c}{0.145} & \multicolumn{1}{c}{0.275} \\ 
+Residual Std. Error & \multicolumn{1}{c}{0.344 (df = 1662)} & \multicolumn{1}{c}{0.308 (df = 2222)} & \multicolumn{1}{c}{0.297 (df = 2222)} \\ 
+F Statistic & \multicolumn{1}{c}{72.917$^{***}$ (df = 6; 1662)} & \multicolumn{1}{c}{63.973$^{***}$ (df = 6; 2222)} & \multicolumn{1}{c}{141.686$^{***}$ (df = 6; 2222)} \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+
+
+
+
+\\
+\noindent
+\textbf{Question 8:}\\
+
+In my international paper I'm done with misalignment measure and working on development channel and trying to find a way to define tradable and nontradables. My Baysian paper, we are working on theoretical part, almost done with coding I need to work a little bit on coding in theoretical part and I'm trying to finish it and start the application of it to be able to present it in class otherwise I am not sure if I can present theoretical paper, it would be boring in class. 
+
+
+
+
+\end{document}
