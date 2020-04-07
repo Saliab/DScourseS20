@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Problem Set 10}
+\author{salimeh Birang }
+\date{April 2020}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+\maketitle
+The following table represents the optimal tuning parameters to the different algorithm.
+\begin{table}[hbt!]
+\centering
+\caption{Optimal values of tuning parameters}
+\begin{tabular}{@{} l*{7}{>{$}c<{$}} @{}}
+\toprule
+\hline
+%&Numbers\hspace{0.9mm}of \hspace{0.9mm} hour\hspace{0.9mm} worked \hspace{0.9mm}in\\
+\hline
+\\
+ Model && f1 && gmean\\
+ \hline
+ &&(1)&&(2) \\
+\hline 
+\midrule
+    {Tree} &&0.8950 && 0.6599 \\
+    {Logit} && 0.8628 && 0.0000  \\
+    {Neural Network} &&0.9053 && 0.7487 \\
+    {KNN} && 0.8983 && 0.7501\\
+    {SVM} && 0.9033 && 0.7335\\
+   \hline
+\hline
+\end{tabular}
+\end{table}
+\end{document}
+
