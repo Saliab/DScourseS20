@@ -1,0 +1,398 @@
+
+
+\documentclass{article}
+\usepackage{graphicx, caption, subcaption}
+
+%\documentclass{article}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\usepackage{latexsym}
+\usepackage{graphics}
+\usepackage{placeins}
+\usepackage{amsmath,amsthm,float,tabularx}
+%\usepackage[dvips]{graphicx}
+\date{\vspace{-5ex}}
+\newtheorem{definition}{Definition}
+\usepackage{grffile}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage[table]{xcolor} 
+\usepackage{booktabs}
+\usepackage{blindtext}
+\usepackage[utf8]{inputenc}
+%%\usepackage{caption}
+%%\usepackage[caption=false]{subfig}
+%%\usepackage{subcaption}
+\usepackage{float}
+\renewcommand{\baselinestretch}{2.}
+\headheight 0.2in
+\headsep 0.2in
+\topmargin 0pt
+\oddsidemargin 0pt
+\textwidth 165.0mm
+\textheight 215.0mm
+\renewcommand{\topfraction}{1}
+\renewcommand{\bottomfraction}{1}
+\renewcommand{\textfraction}{0}
+\setcounter{secnumdepth}{4}
+%\setcounter{tocdepth}{4}
+%\usepackage[justification=centering]{subfig}
+%\usepackage{float}
+%
+\floatstyle{ruled}
+\newfloat{program}{thp}{lop}
+\floatname{program}{Program}
+%
+%
+%%
+\title{\bf Real Exchange Rate and Economic Growth}
+\author{Salimeh Birang}
+%
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+\section{Introduction}
+The relationship between a country’s exchange rate and economic growth has been subject to great contro- versy. In traditional neoclassical growth models, real exchange rate (RER) was not playing a critical role and it was not eminent policy prescription either. However, recent body of empirical research, suggest a strong association between RER and economic growth. Indeed, the relationship between RER and economic growth has received great attention recently. Although large body of literature has found that undervalued RER positively associated with higher economic growth, this has not been the case always.
+There is an ongoing debate on whether real exchange rate benefits or harms economic growth. The ”Washing- ton Consensus” asserts that both undervaluation and overvaluation situations are bad for economic growth. The logic behind this notion is that equilibrium level of the real exchange rate maximizes economic growth by satisfying both internal and external balances. Any deviation of the real exchange rate from this equilibrium level can have both positive and negative effect and hamper economic activity.
+Another view maintains that the effect of exchange rate misalignment on growth depend on nature of these misalignment whether currencies are undervalued or overvalued. There are many empirical studies that find RER overvaluation hinders growth and undervaluation promotes it. This perspective is in part due to trade channel, exchange rate overvaluation raises the international cost of exports, reducing export de- mand and domestic cost of imports, leading to contraction in domestic production. While undervaluation has a positive effect on export and industrial economic activities. undervalued RER increases profitability of tradable sector due to learning-by-doing externalities and technological spillovers; therefore, encourage
+resource reallocation from non-tradable sector to tradable sector(\cite{rodrik2008real}, \cite{rapetti2012real}) Rodrick also claims that weak institutions harm evolution of tradable sector more than non-tradable therefore undervaluation can lead to higher growth by decreasing corruption and distortion by weak institutions. (\cite{eduardo2013fear})
+explains that undervaluation foster growth by channel of savings and investment rather than foreign trade, Money transfers from low income families with low propensity to save to high-income capitalists. Hence, undervalued exchange rate increases the investment and domestic saving rate, and thus stimulating economic growth.\\
+Alternative explanation on the effect of currency misalignment on growth might be through debt channel, depreciation of domestic currency considerably increase foreign debt burdens, amounting to a decrease in firms production because of increase in the cost of imported inputs and goods, financial problems and ab- sence of trade credit. However, appreciation reduces the value of foreign debt and increase the ability to borrow.
+Although there is a large body of literature on the relationship between undervaluation and economic growth the mechansims that causes this association, is still unclear. This article examines the potential channel of undervaluation on economic growth, whether undervaluation leads to reallocation of resources from non- tradable sector to tradable sector. I test if the size of tradable sector is affected by undervaluation and if increase in the size of tradable sector is operative channel for economic growth.
+The remainder of the paper is organized as follows: section 2 reviews the literature on the role of exchange rate on growth highlighting the mechanism through which RER affects growth of countries. Section 3 introduces the empirical methodology, the database and presents the empirical result. Conclusion and future expansion is presented in section 4.
+\section{ Literature review}
+There is a large body of literature on relationship between exchange rate misalignment and economic growth, However, there is no consensus on how exchange rate impact economic growth, some discuss that it has contractionary effect and some mentioned expansionary effect. According to the traditional theory it is expected that a nominal devaluation will result in expenditure switching, increased production of tradables, higher exports, and an improvement of the external position of the country in question. Devaluation can be contractionary based on two channel, first demand-side channel, devaluation leads to higher price and then demand and output will fall. Devaluation also redistribute income from people with low marginal propensity to save to people with high marginal propensity to save which results in decline in demand and output and if price elasticities of import and export are sufficiently low then trade balance in domestic currency worsen which has recessionary effect. On the supply side channel it is possible for devaluation to be contractionary even if net effect on aggregate demand were expansionary in models with intermediate goods and informal markets. \cite{freund2008export} had pointed out that devaluation had contractionary effect starting from initial deficit \cite{alejandro1963note}  another argument for contraction following devaluation arising from redistribution of income from wages to profit. substantial empirical evidence shows that devaluation reduces aggregate demand a few theorist suggest that falling output and employment after devaluation is common. Devaluation can increase output if there are unemployed resources to raise domestic prices if there aren’t. \cite{krugman1976contractionary} looked at income effect as contractionary impact of devaluation especially those transferring real purchasing power toward economic actors with high propensities to save. This can happen in different ways, first, when there is a trade deficit, devaluation increases the price of traded goods and reduces aggregate demand and import in home country. The larger the initial deficit, the greater the contractionary outcome. Second, even if trade is initially in balance, devaluation amounts to increase in the price of traded goods compared to home goods resulting in increase in profitability of export. Saving will rise and aggregate demand will decrease if propensity to save from profit is higher, and the magnitude of contraction depends on difference in propensity to save between two classes. Finally, progressive tax, high tax on profit and valorem tax on export or import redistribute income from private sector to government which leads to fall in aggregate demand. \cite{edwards1985devaluations} This paper empirically analyzed the contrationary devaluation issue using reduced form real-output equation that included a right-hand side variable money growth surprises, government expenditure, terms of trade and real exchange rates. The results show that devaluation have a negative short-run effect on output.
+After a year the evidence indicate that real devaluation have an expansionary effect on output growth. In the long run devaluation were found to be neutral. \cite{schroder2013should} considers heterogeneity in long-run RER behavior across countries by individually estimating RER misalignment for 63 countries over the period of 1970- 2007. This paper practices system generalized method of moments(SGMM)the empirical results are in line with Washington Consensus, any deviation of the RER from the level consistent with external and internal equilibrium lowers economic growth and rejects the notion that RER undervaluation is desirable development policy tool. This paper suggests developing countries to keep RER close to equilibrium level. \cite{rodrik2008real} argues that overvaluation hurts growth, but undervaluation promotes it. Overvalued currency is associated with foreign currency shortage, rent seeking and corruption, large current account deficit, balance of payment crises stop and go macroeconomic cycle all of which harm growth. In his paper he investigates the impact of exchange rate undervaluation on economic growth by using a data set comprised of 188 countries and 11 five-year periods from 1950-54 through 2000-2004 and depicts little evidence of nonlinear relationship (or he fails to show a nonlinearity in the relationship) between a country’s real exchange rate and it’s growth, and indicates that both increase in undervaluation or decrease in overvaluation promotes economic growth. In his paper he uses a PPP based index of misalignment in which equilibrium exchange rate is adjusted for Balasa-Samuelson effect.This relationship holds perfectly for developing countries. \cite{quundervaluation} 
+They tested Rodrick’s claim that weak institutions are harmful for development of tradable sector and economic growth. They checked the effect of corruption, bureaucratic quality, investment profiles and law and order on development of tradable sector, the results cast doubt on Rodrik’s idea on the effect of undervaluation on growth, tradable sector is not suffering from institutional weakness.\\
+\cite{gala2007real}  
+This paper discussed two important channel which exchange rate affect long-term growth, invest- ment and technological change. By affecting real wages, exchange rate level influence aggregate savings, investment and foreign debt dynamics. In capital account liberalization process with strong inflows, currency overvaluation happens which in turn causes increase in real wages that increases consumption and to finance this consumption debt is used instead of generating resources which leads to balance of payment crisis. On the other hand, undervalued currency leads to increase in investment. From the technological approach, appreciated currency affect profitability of investment in manufacturing where increasing return are ubiquitous and relocate resources to non-manufacturing sector where decreasing return rules;therefore overvaluation negatively affect overall productivity. On the other hand, undervaluation boosts profitability and investment in increasing return sectors. so on investment ground competitive exchange rate avoid saving displacement and contribute to capital accumulation by stimulating investment and on technological ground competitive exchange rate encourage development of non-traditional tradable and help countries go through structural change and climb up technological ladder. and also he checked the roe of real exchange rate level on real wage and profitability in short-run. \cite {eduardo2007fear}This paper evaluates the effect of fear of appreciation in two step, first, they evaluate whether interventions are helpful in keeping the exchange rate depreciated, once the results proceeds to prove this fact, they estimate the effect of intervention on growth. They show that depreciated exchange rates amounts to higher growth, but contrary to mercantilists, it happens through domestic saving and capital accumulation rather than through tradable sector. They also analyzed if intervention in the foreign exchange rate affect long lasting output expansion and productivity growth; However, they faced two challenges. First, the positive relationship between growth of the output and monetary supply, Second, there is a possibility that intervention and growth respond to common factors.
+\cite{caglayan2019exchange} This paper investigates the effect of real exchange rate changes on trade flows by taking into account the skill-content and origin/destination of products in a North-South framework. They classify the tech- nology and skill intensity of export in five product categories: high-skill intensive manufactures (high-skill), medium-skill intensive manufactures (medium-skill), low-skill intensive manufactures (low-skill), natural- resource-intensive manufactures(resource-intensive) and primary products(primary). They organize the direction of trade in four groups, South-South, South-North, North-South and North-North. Methodology they used is gravity model, estimated by Poisson Pseudo-Maximum Likelihood (PPML) method of Santos Silva and Tenreyro. They argue that higher productivity firms and firms within global supply chain have a higher share of imported inputs, which are also of higher quality and cost more. Therefore, depreciation leads to increase in the price of imported input and we may not observe reallocation of resources between traded and non-traded sectors or primary and manufacturing sectors. On the other hand appreciation can have a positive effect through productivity achieved due to higher competitiveness which cancels the negative effect and makes the testing of macroeconomic channel difficult. The results indicate that the higher RER has a significantly positive effect on total, medium-skill, low-skill and resource-intensive exports which are consistent with macroeconomics and development channel literature and no effect on high-skill or primary good exports. Similarly, they find a negative effect of RER volatility on total, low-skill , resource-intense and primary good exports, but no effect on high or medium-skill product. \cite{hausmann2007you} This paper argues that what a country produces plays a crucial role in its economic performance, as some goods are associated with higher productivity, thus amount to higher growth. Therefore, government policy has a pivotal role in production patterns of a country beside its capacity on human and physical capital, natural resources and quality of institutions. This paper claims that countries that specialize in goods being produced by rich countries would enjoy higher growth rate. In a developing country, production of a good happens under cost uncertainty, investigating the cost structure of economy will have a huge positive externality. The country can reach to its productivity frontier as more entrepreneurs get involved in the cost discovery procedure, by confirming profitability of producing a specific good and attracting other entrepreneurs.\\
+\cite{eduardo2007fear}They mentioned that depreciated currency(fear of appreciation) has a positive effect on the economic growth for developing countries. This happens through domestic saving and capital accumulation rather than through import substitution.
+
+\section{Empirical methodology and data sources}
+\subsection{Exchange rate misalignment}
+In this section, I discuss empirical methodology to test the relationship between RER and economic growth rate. In order to estimate this relationship first, I need to estimate exchange rate misalignment that can be defined as a deviation of the exchange rate from its equilibrium. Different approaches are purposed to estimate exchange rate misalignment, two of the most popular methods are as follows:\\
+The PPP index approach which is derived from law of one price. According to this law, identical goods will be sold at the same price across the world in case of full employment. Exchange rate using this approach would be the ratio of price levels therefore, if the ratio of actual exchange rate over PPP exchange rate is less (greater) than one then it will be overvalued (undervalued). This approach might not work due to several reasons like, difference in consumer taste, different goods are produced in different countries. Therefore, one should take into account for Balassa-Samuelson effect which assumes prices of nontradables in developing countries are cheaper. Indeed, considering law of one price productivity shock in tradable sector will not increase the price of tradable goods but it increase the prices of nontradable goods since productivity increase in tradable sector causes the wages to go up and consequently the price of nontradable goods increases.\cite{couharde2013currency} The fundamentals-based that relies on general equilibrium framework. In this approach exchange rate equilibrium relies on economic fundamentals and relates exchange rate movements to internal and external imbalances.
+In this paper I use different measures in order to calculate undervaluation index, following methodology suggested by \cite{rodrik2008real} which is a measure of domestic price level adjusted for the Balassa-Samuelson effect. This approach comprises of three steps:\\
+i. Calculating real exchange rate:\\
+\begin{equation}
+lnRER_{it} = ln(XRAT_{it} *CPI_{US} / CPI_{it})
+\end{equation}
+
+where $RER_{it}$ is the real exchange rate, XRATit is the nominal exchange rate; $CPI_{it}$ is the consumer price index. When $RER_{it}$ is greater than one, the current value of currency is smaller than the value indicated by purchasing power parity, in other words it is undervalued. Several other measures in order to calculate real exchange rate has been discussed in \cite{chib1995marginal}. \\
+ii) Second, taking into account for Balassa-Samuelson effect since in poorer countries nontradable goods are cheaper. By regressing RER on real GDP per capita we can have RER adjusted for Balassa-Samuelson effect
+\begin{equation}
+lnRER_{it} =\alpha+\beta ln GDP +f_t +f_i +\epsilon_{it}
+\end{equation}
+
+where $f_t$ is fixed effect for time period, $f_i$ is fixed effect for countries and $\epsilon_{it}$ is the error term. This regression yield a coefficient of $\hat{\beta}$ $-0.064$  with t-statistic of -2.35 the sign of the coefficient is in line with Balassa- Samuelson, a $10 \%$ increase in real GDP per capita is associated with a decrease in real effective exchange rate by $-0.64 \%$ (real appreciation).
+
+iii) Finally, taking the difference between the actual exchange rate and exchange rate adjusted for the Balassa-Samuelson effect gives the undervaluation index.\\
+\begin{equation}
+lnUNDERVAL_{it}=lnRER_{it}-\hat{lnRER_{it}}
+\end{equation}
+
+where $UNDERVAL_{it} $is the exchange rate undervaluation index and $\hat{RER_{it}}$ is the predicted value from equation (2).\\
+The advantage of this index is that it is comparable across countries and over time. When its value exceeds one then goods produced at home country would be cheaper in dollar terms implying undervaluation of the currency.\\
+Then I estimate a series of growth regressions for a panel of 178 countries for 1960-2019 to check the relationship between undervaluation and growth:\\
+\begin{equation}
+Geowth_{it}=\alpha+\beta lnGDP_{i,t-1}+\delta ln UNDERVAL_{it}+\gamma X_t+f_i+ f_t+\epsilon_{it}
+\end{equation}
+where the dependent variable is annual growth in GDP per capita. The equation also includes a series of control variables, initial income per capita, undervaluation index and a set of country and time dummies, gross domestic saving, government consumption, terms of trade, openness and the error term.The primary focus of this equation is the coefficient of undervaluation index. \\
+Table one reports estimated real exchange rate for the 6 different models. Model one is associated with Rodrick's method, who used only GDP per capita as an explanatory variable to estimate equilibrium real exchange rate and then calculate exchange rate misalignment (undervaluation), Model 2-6 extended the above-mentioned methodology and include other explanatory variables. I also calculate equilibrium exchange rate using panel DOLS and VECM model I will include the results in a final draft.
+
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{c}}
+\hline\hline
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
+            &\multicolumn{1}{c}{Model 1}&\multicolumn{1}{c}{Model 2}&\multicolumn{1}{c}{Model 3}&\multicolumn{1}{c}{Model 4}&\multicolumn{1}{c}{Model 5}&\multicolumn{1}{c}{Model 6}\\
+\hline
+lGDP-Capita &     -0.0640\sym{*}  &      -0.116\sym{***}&      -0.102\sym{*}  &     -0.0143         &                     &                     \\
+            &     (-2.35)         &     (-3.97)         &     (-2.34)         &     (-0.24)         &                     &                     \\
+[1em]
+NFAGDP      &                     &     -0.0192         &     -0.0238         &     -0.0199         &     -0.0136         &     -0.0203         \\
+            &                     &     (-1.70)         &     (-1.70)         &     (-1.31)         &     (-1.17)         &     (-1.35)         \\
+[1em]
+lTOT        &                     &                     &     0.00284         &      -0.131\sym{**} &                     &      -0.132\sym{**} \\
+            &                     &                     &      (0.07)         &     (-2.86)         &                     &     (-2.88)         \\
+[1em]
+lGov-Consumption&                     &                     &                     &      0.0514         &    -0.00675         &      0.0515         \\
+            &                     &                     &                     &      (1.08)         &     (-0.20)         &      (1.09)         \\
+[1em]
+\_cons      &       3.439\sym{***}&       3.883\sym{***}&       3.702\sym{***}&       3.012\sym{***}&       3.015\sym{***}&       2.897\sym{***}\\
+            &     (15.49)         &     (16.09)         &     (10.46)         &      (5.92)         &     (27.12)         &     (19.18)         \\
+\hline
+\(N\)       &        7376         &        6071         &        4070         &        3593         &        5399         &        3604         \\
+\hline\hline
+\multicolumn{7}{l}{\footnotesize \textit{t} statistics in parentheses}\\
+\multicolumn{7}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}
+\\
+
+Table 2, depict the results of equation 4, simple growth model for each of the misalignment measures. The regression yields statistically significant and positive coefficient for undervaluation index implying that undervalued currency promotes growth. Other misalignment measures are not statistically significant; however, they have positive signs. It would be better to split the countries to developing and developed countries to get more accurate answer for the effect of undervaluation on growth within different low-income, middle-income and rich countries.\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{7}{c}}
+\hline\hline
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}\\
+            &\multicolumn{1}{c}{}&\multicolumn{1}{c}{}&\multicolumn{1}{c}{}&\multicolumn{1}{c}{}&\multicolumn{1}{c}{}&\multicolumn{1}{c}{}&\multicolumn{1}{c}{}\\
+\hline
+Initial income    &      -3.069\sym{***}&      -4.778\sym{***}&      -5.083\sym{***}&      -5.081\sym{***}&      -5.070\sym{***}&      -5.068\sym{***}&      -5.068\sym{***}\\
+            &    (-12.81)         &    (-13.73)         &    (-13.01)         &    (-13.01)         &    (-12.98)         &    (-12.98)         &    (-12.98)         \\
+[1em]
+Mis\_1       &       0.278\sym{**} &       0.108         &                     &                     &                     &                     &                     \\
+            &      (2.61)         &      (1.11)         &                     &                     &                     &                     &                     \\
+[1em]
+GOV-Saving     &                     &      0.0936\sym{***}&      0.0864\sym{***}&      0.0864\sym{***}&      0.0864\sym{***}&      0.0865\sym{***}&      0.0864\sym{***}\\
+            &                     &      (9.44)         &      (7.91)         &      (7.91)         &      (7.91)         &      (7.91)         &      (7.91)         \\
+[1em]
+Gov-Consumption &                     &     -0.0478\sym{**} &     -0.0594\sym{**} &     -0.0594\sym{**} &     -0.0591\sym{**} &     -0.0594\sym{**} &     -0.0591\sym{**} \\
+            &                     &     (-2.61)         &     (-2.79)         &     (-2.79)         &     (-2.78)         &     (-2.79)         &     (-2.78)         \\
+[1em]
+lTOT        &                     &       0.631\sym{*}  &       0.784\sym{*}  &       0.783\sym{*}  &       0.766\sym{*}  &       0.776\sym{*}  &       0.765\sym{*}  \\
+            &                     &      (2.17)         &      (2.50)         &      (2.50)         &      (2.45)         &      (2.48)         &      (2.45)         \\
+[1em]
+openness    &                     &      0.0188\sym{***}&      0.0183\sym{***}&      0.0183\sym{***}&      0.0184\sym{***}&      0.0184\sym{***}&      0.0184\sym{***}\\
+            &                     &      (5.54)         &      (4.86)         &      (4.86)         &      (4.87)         &      (4.88)         &      (4.88)         \\
+[1em]
+Mis\_2       &                     &                     &       0.128         &                     &                     &                     &                     \\
+            &                     &                     &      (1.21)         &                     &                     &                     &                     \\
+[1em]
+Mis\_3       &                     &                     &                     &       0.125         &                     &                     &                     \\
+            &                     &                     &                     &      (1.18)         &                     &                     &                     \\
+[1em]
+Mis\_4       &                     &                     &                     &                     &      0.0931         &                     &                     \\
+            &                     &                     &                     &                     &      (0.88)         &                     &                     \\
+[1em]
+Mis\_5       &                     &                     &                     &                     &                     &      0.0871         &                     \\
+            &                     &                     &                     &                     &                     &      (0.82)         &                     \\
+[1em]
+Mis\_6       &                     &                     &                     &                     &                     &                     &      0.0884         \\
+            &                     &                     &                     &                     &                     &                     &      (0.84)         \\
+[1em]
+\_cons      &       26.01\sym{***}&       36.91\sym{***}&       39.52\sym{***}&       39.53\sym{***}&       39.45\sym{***}&       39.41\sym{***}&       39.44\sym{***}\\
+            &     (13.32)         &     (13.03)         &     (12.55)         &     (12.56)         &     (12.53)         &     (12.52)         &     (12.53)         \\
+\hline
+\(N\)       &        7187         &        3636         &        3248         &        3248         &        3248         &        3248         &        3248         \\
+\hline\hline
+\multicolumn{8}{l}{\footnotesize \textit{t} statistics in parentheses}\\
+\multicolumn{8}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}
+
+
+
+Despite large body of literature on the relationship between exchange rate and economic growth, the literature is missing on the channels through which undervaluation spur growth. Exchange rate can lead to a reallocation of resource especially if it remains stable over a period of time. It will influence the price ratios and aggregate demand, hence boost productivity and growth. According to [13] exchange rate un- dervaluation increases the profitability of the tradable sector and promotes it. In order to test if this is the mechanism that promotes growth, following [13] first, the effect of undervaluation on the size of tradables should be checked and second, if the effect of exchange rate on growth operates through the size of tradable sector. In this paper I use the rule of thumb and assumed Industry sector as tradable sector. Two different measure is being used to define size of tradable sector, its share in GDP and its share in employment. The regression results depicts that undervaluation boost industial activities. 
+%In terms of agriculture although the sign is positive, coefficients are not statistically significant. 
+Tables 3 and 4, reports the effect of undervaluation on Industry's share in GDP and Industry's share in employment, and Table 5 and 6 shows if the relative size of tradables is the operative channel of growth, if tradable share is directly caused by undervaluation. The results are positive indicating undervaluation causes reallocation of resources toward tradble sector. This paper is still in preliminary stage, I spent lots of time on different measures of misalignment and next step is to figure out how to estimate the channel through which undervaluation boosts tradable sector and consequently growth. I need to find a better way to categorize tradable and nontradable sector and then estimate the effect of undervaluation.\\ 
+ %need to figure The next step would be to look deeper in this category not all the sectors of the manufacturing, industry and agriculture are tradable so we would have more robust results if we can differentiate tradables and non tradables within these sectors.\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{8}{c}}
+\hline\hline
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}\\
+            &\multicolumn{1}{c}{Indus}&\multicolumn{1}{c}{Indus}&\multicolumn{1}{c}{Indus}&\multicolumn{1}{c}{Indus}&\multicolumn{1}{c}{Indus}&\multicolumn{1}{c}{Indus}&\multicolumn{1}{c}{Indus}&\multicolumn{1}{c}{Indus}\\
+\hline
+Current Income&       2.233\sym{***}&       1.109\sym{***}&       1.304\sym{***}&       1.116\sym{***}&       0.607\sym{*}  &       1.113\sym{***}&       0.950\sym{***}&       1.229\sym{***}\\
+            &     (10.79)         &      (4.82)         &      (4.89)         &      (4.09)         &      (2.45)         &      (4.08)         &      (4.16)         &      (4.65)         \\
+[1em]
+Mis\_1       &       0.694\sym{***}&                     &                     &                     &                     &                     &                     &                     \\
+            &      (6.31)         &                     &                     &                     &                     &                     &                     &                     \\
+[1em]
+Mis\_2       &                     &       0.645\sym{***}&                     &                     &                     &                     &                     &                     \\
+            &                     &      (5.10)         &                     &                     &                     &                     &                     &                     \\
+[1em]
+Mis\_3       &                     &                     &       0.304\sym{*}  &                     &                     &                     &                     &                     \\
+            &                     &                     &      (2.52)         &                     &                     &                     &                     &                     \\
+[1em]
+Mis\_4       &                     &                     &                     &       0.135         &                     &                     &                     &                     \\
+            &                     &                     &                     &      (1.14)         &                     &                     &                     &                     \\
+[1em]
+Mis\_5       &                     &                     &                     &                     &       0.304\sym{*}  &                     &                     &                     \\
+            &                     &                     &                     &                     &      (2.32)         &                     &                     &                     \\
+[1em]
+Mis\_6       &                     &                     &                     &                     &                     &       0.137         &                     &                     \\
+            &                     &                     &                     &                     &                     &      (1.15)         &                     &                     \\
+[1em]
+Mis\_7       &                     &                     &                     &                     &                     &                     &       0.665\sym{***}&                     \\
+            &                     &                     &                     &                     &                     &                     &      (5.48)         &                     \\
+[1em]
+Mis\_8       &                     &                     &                     &                     &                     &                     &                     &       0.397\sym{***}\\
+            &                     &                     &                     &                     &                     &                     &                     &      (3.37)         \\
+[1em]
+\_cons      &       10.72\sym{***}&       17.17\sym{***}&       16.03\sym{***}&       17.14\sym{***}&       20.18\sym{***}&       17.15\sym{***}&       13.83\sym{***}&       13.67\sym{***}\\
+            &      (6.09)         &      (9.15)         &      (8.32)         &      (8.87)         &     (10.34)         &      (8.87)         &      (6.77)         &      (6.49)         \\
+\hline
+\(N\)       &        6088         &        5256         &        3785         &        3404         &        4694         &        3412         &        5256         &        3785         \\
+\hline\hline
+\multicolumn{9}{l}{\footnotesize \textit{t} statistics in parentheses}\\
+\multicolumn{9}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{8}{c}}
+\hline\hline
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}\\
+            &\multicolumn{1}{c}{EmpIndu}&\multicolumn{1}{c}{EmpIndu}&\multicolumn{1}{c}{EmpIndu}&\multicolumn{1}{c}{EmpIndu}&\multicolumn{1}{c}{EmpIndu}&\multicolumn{1}{c}{EmpIndu}&\multicolumn{1}{c}{EmpIndu}&\multicolumn{1}{c}{EmpIndu}\\
+\hline
+Initial Income    &      -0.866\sym{**} &      -0.956\sym{**} &      -1.185\sym{***}&      -0.905         &      -0.662         &      -0.901         &      -1.048\sym{**} &      -1.295\sym{***}\\
+            &     (-2.69)         &     (-2.94)         &     (-3.44)         &     (-1.96)         &     (-1.56)         &     (-1.95)         &     (-3.17)         &     (-3.71)         \\
+[1em]
+Current Income &       2.907\sym{***}&       2.706\sym{***}&       2.663\sym{***}&       3.261\sym{***}&       3.010\sym{***}&       3.261\sym{***}&       2.662\sym{***}&       2.632\sym{***}\\
+            &     (13.20)         &     (12.29)         &     (11.08)         &     (11.75)         &     (11.71)         &     (11.75)         &     (12.15)         &     (11.06)         \\
+[1em]
+Mis\_1       &       0.350\sym{***}&                     &                     &                     &                     &                     &                     &                     \\
+            &      (4.17)         &                     &                     &                     &                     &                     &                     &                     \\
+[1em]
+Mis\_2       &                     &       0.371\sym{***}&                     &                     &                     &                     &                     &                     \\
+            &                     &      (4.47)         &                     &                     &                     &                     &                     &                     \\
+[1em]
+Mis\_3       &                     &                     &       0.276\sym{***}&                     &                     &                     &                     &                     \\
+            &                     &                     &      (3.40)         &                     &                     &                     &                     &                     \\
+[1em]
+Mis\_4       &                     &                     &                     &       0.308\sym{***}&                     &                     &                     &                     \\
+            &                     &                     &                     &      (3.57)         &                     &                     &                     &                     \\
+[1em]
+Mis\_5       &                     &                     &                     &                     &       0.332\sym{***}&                     &                     &                     \\
+            &                     &                     &                     &                     &      (3.72)         &                     &                     &                     \\
+[1em]
+Mis\_6       &                     &                     &                     &                     &                     &       0.308\sym{***}&                     &                     \\
+            &                     &                     &                     &                     &                     &      (3.57)         &                     &                     \\
+[1em]
+Mis\_7       &                     &                     &                     &                     &                     &                     &       0.332\sym{***}&                     \\
+            &                     &                     &                     &                     &                     &                     &      (4.11)         &                     \\
+[1em]
+Mis\_8       &                     &                     &                     &                     &                     &                     &                     &       0.303\sym{***}\\
+            &                     &                     &                     &                     &                     &                     &                     &      (3.76)         \\
+[1em]
+\_cons      &       6.471\sym{***}&       8.584\sym{***}&       9.676\sym{***}&       3.275         &       4.439         &       3.242         &       7.291\sym{***}&       8.430\sym{***}\\
+            &      (3.63)         &      (4.70)         &      (5.11)         &      (1.17)         &      (1.74)         &      (1.16)         &      (3.96)         &      (4.43)         \\
+\hline
+\(N\)       &        4305         &        3789         &        3172         &        2894         &        3440         &        2894         &        3789         &        3172         \\
+\hline\hline
+\multicolumn{9}{l}{\footnotesize \textit{t} statistics in parentheses}\\
+\multicolumn{9}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{8}{c}}
+\hline\hline
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}\\
+            &\multicolumn{1}{c}{lGDPgrowth}&\multicolumn{1}{c}{lGDPgrowth}&\multicolumn{1}{c}{lGDPgrowth}&\multicolumn{1}{c}{lGDPgrowth}&\multicolumn{1}{c}{lGDPgrowth}&\multicolumn{1}{c}{lGDPgrowth}&\multicolumn{1}{c}{lGDPgrowth}&\multicolumn{1}{c}{lGDPgrowth}\\
+\hline
+Indus       &      0.0201\sym{**} &      0.0126         &     0.00719         &     0.00607         &      0.0104         &     0.00598         &      0.0158\sym{*}  &     0.00903         \\
+            &      (3.08)         &      (1.55)         &      (0.77)         &      (0.52)         &      (0.88)         &      (0.51)         &      (2.10)         &      (1.03)         \\
+[1em]
+lInitial Income    &      -0.172\sym{***}&      -0.159\sym{***}&      -0.152\sym{***}&      -0.152\sym{***}&      -0.156\sym{***}&      -0.152\sym{***}&      -0.166\sym{***}&      -0.156\sym{***}\\
+            &    (-10.96)         &     (-8.30)         &     (-6.77)         &     (-5.70)         &     (-6.07)         &     (-5.69)         &     (-9.16)         &     (-7.25)         \\
+[1em]
+\_cons      &       2.222\sym{***}&       2.323\sym{***}&       2.383\sym{***}&       2.408\sym{***}&       2.355\sym{***}&       2.409\sym{***}&       2.291\sym{***}&       2.364\sym{***}\\
+            &     (22.92)         &     (21.12)         &     (18.39)         &     (15.38)         &     (15.72)         &     (15.38)         &     (21.64)         &     (18.79)         \\
+\hline
+\(N\)       &        5250         &        4505         &        3273         &        2976         &        4039         &        2976         &        4505         &        3273         \\
+\hline\hline
+\multicolumn{9}{l}{\footnotesize \textit{t} statistics in parentheses}\\
+\multicolumn{9}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}
+\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{8}{c}}
+\hline\hline
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}\\
+            &\multicolumn{1}{c}{GDPcapg}&\multicolumn{1}{c}{GDPcapg}&\multicolumn{1}{c}{GDPcapg}&\multicolumn{1}{c}{GDPcapg}&\multicolumn{1}{c}{GDPcapg}&\multicolumn{1}{c}{GDPcapg}&\multicolumn{1}{c}{GDPcapg}&\multicolumn{1}{c}{GDPcapg}\\
+\hline
+EmpIndu     &      0.0689         &       0.130         &      0.0848         &       0.167\sym{*}  &       0.238\sym{**} &       0.168\sym{*}  &      0.0512         &      0.0328         \\
+            &      (0.49)         &      (1.09)         &      (0.74)         &      (2.48)         &      (3.02)         &      (2.49)         &      (0.42)         &      (0.29)         \\
+[1em]
+Initial Income   &      -0.483         &      -0.704         &      -0.566         &      -0.822\sym{***}&      -1.034\sym{***}&      -0.825\sym{***}&      -0.414         &      -0.379         \\
+            &     (-0.98)         &     (-1.58)         &     (-1.34)         &     (-3.38)         &     (-3.63)         &     (-3.40)         &     (-0.91)         &     (-0.90)         \\
+[1em]
+\_cons      &       5.024\sym{***}&       5.705\sym{***}&       5.517\sym{***}&       5.881\sym{***}&       6.152\sym{***}&       5.889\sym{***}&       4.849\sym{***}&       4.976\sym{***}\\
+            &      (3.55)         &      (4.08)         &      (4.15)         &      (7.58)         &      (7.06)         &      (7.59)         &      (3.41)         &      (3.75)         \\
+\hline
+\(N\)       &        4324         &        3798         &        3181         &        2894         &        3440         &        2894         &        3798         &        3181         \\
+\hline\hline
+\multicolumn{9}{l}{\footnotesize \textit{t} statistics in parentheses}\\
+\multicolumn{9}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+\section{conclusion}
+
+Recent research has demonstrate a positive association between RER undervaluation and economic growth. Different explanations have been suggested for this relationship, however, the mechanism that causes this effect is still not identified. This paper strives to add to the literature by analyzing the possible channel that amounts to this association. Although this research is still in preliminary stage, and the results are not as robust, we still can observe a positive relationship between exchange rate undervaluation and growth. The regression results also depicted a similar association between undervalued currency and tradable sector. In order to get more robust and deeper understanding of the above mentioned channel that determines the growth, the next step would be to develop an approach to meticulously define tradable sector. Furthermore, as mentioned in [8] not all the goods affect the economic performance of the country. Specializing in specific area might have a great impact on the performance of economy considering skill-based and resource-intensive sectors within the tradables would give a better insight. 
+
+
+
+\newpage
+\bibliographystyle{plain}
+\bibliography{ref}
+
+
+
+
+\end{document}
